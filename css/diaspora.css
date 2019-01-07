@@ -30,6 +30,7 @@ audio {display:none;visibility:hidden;opacity:0;width:0;height:0;}
 body.mu .image-logo {background-color:black;}
 #vibrant {position:absolute;top:0;left:0;width:100%;height:100%;}
 #vibrant div {position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;background-color:#000;}
+#vibrant svg polygon {background-color:rgb(18, 90, 137);;}
 #post0 {width:28%;position:absolute;top:42%;left:10%;}
 #post0 p:first-child {color:#fff;font-size:12px;}
 #post0 h2 {font-size:28px;margin-top:15px;}
@@ -235,7 +236,7 @@ pre .keyword,pre .javascript .function {color:#cc99cc;}
 @media screen and (max-width:900px) {
   #mark {height:480px;}
   #header > div {width:90%;}
-  #vibrant polygon {transform:translateX(-10%);-moz-transform:translateX(-10%);-webkit-transform:translateX(-10%);background:rgb(117, 114, 114);}
+  #vibrant polygon {transform:translateX(-10%);-moz-transform:translateX(-10%);-webkit-transform:translateX(-10%); background-color: rgb(117, 230, 196);}
   #post0 {width:40%;}
   #post0 h2 {font-size:20px;}
   .post {width:100%;margin-top:60px;background:#fff;padding-bottom:30px;border-bottom:1px solid #eaeaea;}
@@ -254,7 +255,7 @@ pre .keyword,pre .javascript .function {color:#cc99cc;}
 @media screen and (max-width:780px) {
   #header {top:40px;}
   #vibrant svg {display:none;}
-  #vibrant div {opacity:0.3;}
+  #vibrant div {opacity:0.3; background-color: rgb(117, 230, 196);}
   #container {padding-bottom:50px;}
   #post0 {bottom:60px;top:auto;width:70%;left:5%;}
   .menu {width:80%;margin:160px auto 0;}
