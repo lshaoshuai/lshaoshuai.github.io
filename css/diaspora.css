@@ -235,7 +235,7 @@ pre .keyword,pre .javascript .function {color:#cc99cc;}
 @media screen and (max-width:900px) {
   #mark {height:480px;}
   #header > div {width:90%;}
-  #vibrant polygon {transform:translateX(-10%);-moz-transform:translateX(-10%);-webkit-transform:translateX(-10%);}
+  #vibrant polygon {transform:translateX(-10%);-moz-transform:translateX(-10%);-webkit-transform:translateX(-10%);background:rgb(117, 114, 114);}
   #post0 {width:40%;}
   #post0 h2 {font-size:20px;}
   .post {width:100%;margin-top:60px;background:#fff;padding-bottom:30px;border-bottom:1px solid #eaeaea;}
