@@ -480,6 +480,61 @@ $(function() {
                 Diaspora.loaded();
                 return false;
                 break;
+            // post images
+            /*case (tag.indexOf('icon-images') != -1):
+                window.scrollTo(0, 0)
+
+                var d = $('.icon-images');
+
+                if (d.data('status') == 'loading') {
+                    return false
+                }
+
+                if (d.hasClass('active')) {
+                    d.removeClass('active')
+
+                    $('.article').css('height', 'auto')
+                    $('.section').css('left', '-100%')
+                    setTimeout(function() {
+                        $('.images').data('height', $('.images').height()).css('height', '0') 
+                    }, 0)
+                } else {
+                    d.addClass('active')
+
+                    $('.images').css('height', $('.images').data('height'))
+
+                    if ($('.icon-images').hasClass('tg')) {
+                        $('.section').css('left', 0)
+
+                        setTimeout(function() { $('.article').css('height', '0') }, 0)
+                    } else {
+                        if (!(Diaspora.P() && window.innerWidth < 700)) {
+                            $('.zoom').Chocolat()
+                        }
+
+                        Diaspora.loading()
+                        d.data('status', 'loading')
+
+                        var m = 5, r = 120;
+                        if (Diaspora.P() && window.innerWidth < 600) {
+                            m = 1;
+                            r = 80;
+                        }
+                        $('#jg').justifiedGallery({
+                            margins: m, 
+                            rowHeight : r,
+                        }).on('jg.complete', function () {
+                            $('.section').css('left', 0)
+                            $('.icon-images').addClass('tg')
+
+                            d.data('status', '')
+                            Diaspora.loaded()
+                            setTimeout(function() { $('.article').css('height', '0') }, 0)
+                        })
+                    }
+
+                }
+            break;*/
             default:
                 return true;
                 break;
